@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.latest-body{
+    display:flex;
+    justify-content:space-evenly;
+    padding-bottom:30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#latest-second-body{
+    position:absolute;
+    padding-left:140px;
+    z-index: 1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.summer{
+   position:relative;
+   z-index: 2;
+   top:20px;
+   left:200px;
+   width:300px;
+   padding-bottom:50px;
+   font-family:'Roboto Condensed', sans-serif;
+    color:rgb(39, 36, 36);
+    font-size:25px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item-heading{
+    margin-top:100px;
+    display:flex;
 }
-
-.App-link {
-  color: #61dafb;
+.new-arrival{
+    position:absolute;
+    padding-left: 90px;
+    font-size:40px;
+    z-index:2;
+    font-family:'Roboto Condensed', sans-serif;
+    color:rgb(39, 36, 36);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.season{
+    position:relative;
+    left:250px;
+    bottom:15px;
+    z-index:1;
+    font-size:60px;
+    font-family:'Roboto Condensed', sans-serif;
+    color:rgb(177, 173, 173);
+}
+#usefeature{
+    padding-bottom:30px;
 }

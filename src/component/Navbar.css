@@ -1,0 +1,20 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.main{
+    display:flex;
+    justify-content:space-evenly;
+    background-image: url('banner.png');
+}
+#text{
+    padding:20px 20px 10px 20px;
+}
+.div1{
+    padding:20px 20px 10px 20px;
+}
+.div2{
+    padding:0px 20px;
+    font-size:20px;
+}
+
