@@ -1,7 +1,11 @@
+*{
+    padding:0px;
+    margin:0px;
+}
 .latest-body{
     display:flex;
-    justify-content:space-evenly;
-    padding-bottom:30px;
+    justify-content: space-evenly;
+    padding-bottom:10%;
 }
 #latest-second-body{
     position:absolute;
@@ -42,4 +46,8 @@
 }
 #usefeature{
     padding-bottom:30px;
+}
+.main-div{
+    margin:auto;
+    width:fit-content;
 }

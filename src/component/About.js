@@ -1,7 +1,4 @@
-import './About.css'
-import image1 from './about1.jpg'
-import image2 from './about2.jpg'
-import image3 from './about3.jpg'
+import './About.css' 
 export default function About(){
     return(
         <>
@@ -18,9 +15,9 @@ export default function About(){
           <h4 id="about3">More About us</h4>
           </div>
           <div>
-             <img src={image1} alt="about1" id="img1"/>
-             <img src={image2} alt="about2" id="img2"/>
-             <img src={image3} alt="about3" id="img3"/>            
+             <img src={require("./assets/about1.jpg")} alt="about1" id="img1"/>
+             <img src={require("./assets/about2.jpg")} alt="about2" id="img2"/>
+             <img src={require("./assets/about3.jpg")} alt="about3" id="img3"/>            
           </div>
           </div>
         </>

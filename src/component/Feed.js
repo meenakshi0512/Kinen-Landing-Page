@@ -1,10 +1,9 @@
 import './Feed.css'
-import image from './testimonial.jpg'
 export default function Feed(){
     return (
       <>
         <div class="feed-body">
-          <div><img src={image} alt="img"/></div>
+          <div><img src={require("./assets/testimonial.jpg")} alt="img"/></div>
           <div>
             <div class="item-heading">
               <h3 class="new-arrival">FEEDBACK</h3>

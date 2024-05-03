@@ -1,5 +1,4 @@
 import './Navbar.css'
-import logo from './logo.png'
 export default function Navbar(){
     return(
         <>
@@ -9,7 +8,7 @@ export default function Navbar(){
              <div class="div2"><i class="fa-solid fa-magnifying-glass div2"></i></div>
           </div>
           <div id="text">
-             <img src={logo} alt="kinen"/>
+             <img src={require("./assets/logo.png")} alt="kinen"/>
           </div>
           <div class="div1 main">  
                <div class="div2"><i class="fa-regular fa-heart"></i></div>

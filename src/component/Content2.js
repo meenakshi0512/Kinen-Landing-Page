@@ -1,12 +1,8 @@
-import image from './men2.png'
-import dress1 from './dress4.jpg'
-import dress2 from './dress5.jpg'
-import dress3 from './dress6.jpg'
 import  './Content1.css'
 export default function Content2(){
     return(
         <>
-          <img id="men2" src={image} alt="men1"/>
+          <img id="men2" src={require("./assets/men2.png")} alt="men1"/>
           <div class="content-circle">
             <b class="banner-price">$764.26</b>
             <b class="banner-about1">
@@ -27,19 +23,19 @@ export default function Content2(){
             </div>
             <div class="dress-main">
                <div class="dress-detail">
-                   <img src={dress1} alt='dress1' class="dress-detail-image"/>
+                   <img src={require("./assets/dress4.jpg")} alt='dress1' class="dress-detail-image"/>
                    <b>Long Blazer</b>
                    <br/>
                    <b>$150.38</b>
                </div>
                <div class="dress-detail">
-                   <img src={dress2} alt='dress2' class="dress-detail-image"/>
+                   <img src={require("./assets/dress5.jpg")} alt='dress2' class="dress-detail-image"/>
                    <b>White Pant</b>
                    <br/>
                    <b>$80.38</b>
                </div>
                <div class="dress-detail">
-                   <img src={dress3} alt='dress3' class="dress-detail-image"/>
+                   <img src={require("./assets/dress6.jpg")} alt='dress3' class="dress-detail-image"/>
                    <b>Leather shoes</b>
                    <br/>
                    <b>$175.38</b>
