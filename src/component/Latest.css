@@ -1,68 +1,61 @@
-.latest-main{
-    height:200px;
-    width:500px;
+*{
+    padding:0;
+    margin:0;
 }
 .latest-image{
-    position:absolute;
-    height:215px;
-    width:550px;
     z-index:1;
-}
-.latest-text{
-    position:relative;
-    top:50px;
-    z-index:2;
 }
 #line1{
     position:relative;
-    top:50px;
+    bottom:125px;
     left:450px;
     font-family:'Roboto Condensed', sans-serif;
     color:rgb(54, 54, 54);
-    margin-bottom:-10px;
     font-size:15px;
+    z-index:2;
 }
 #line2{
     position:relative;
-    top:45px;
+    bottom:140px;
     left:375px;
     font-family:'Roboto Condensed', sans-serif;
-    color:rgb(39, 36, 36);
-    font-size:25px;    
-    padding-bottom:10px;
+    color:rgb(54, 54, 54);
+    font-size:25px;
+    z-index:2;
 }
 #line3{
     position:relative;
-    top:50px;
-    left:250px;
+    bottom:150px;
+    left:245px;
     font-family:'Roboto Condensed', sans-serif;
-    color:rgb(39,36,36);
+    color:rgb(54, 54, 54);
     font-size:25px;
+    z-index:2;
 }
 #line11{
     position:relative;
-    top:50px;
-    left:10px;
+    bottom:125px;
+    left:5px;
     font-family:'Roboto Condensed', sans-serif;
     color:rgb(54, 54, 54);
-    margin-bottom:-10px;
     font-size:15px;
+    z-index:2;
 }
 #line22{
     position:relative;
-    top:45px;
-    left:10px;
+    bottom:140px;
+    left:5px;
     font-family:'Roboto Condensed', sans-serif;
-    color:rgb(39, 36, 36);
-    font-size:25px;    
-    padding-bottom:10px;
-
+    color:rgb(54, 54, 54);
+    font-size:25px;
+    z-index:2;
 }
 #line33{
     position:relative;
-    top:50px;
-    left:10px;
+    bottom:150px;
+    left:5px;
     font-family:'Roboto Condensed', sans-serif;
-    color:rgb(39,36,36);
+    color:rgb(54, 54, 54);
     font-size:25px;
+    z-index:2;
 }

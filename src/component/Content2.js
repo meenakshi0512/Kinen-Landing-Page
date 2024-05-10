@@ -2,6 +2,7 @@ import  './Content1.css'
 export default function Content2(){
     return(
         <>
+        <div class="partner-logo">
           <img id="men2" src={require("./assets/men2.png")} alt="men1"/>
           <div class="content-circle">
             <b class="banner-price">$764.26</b>
@@ -42,6 +43,7 @@ export default function Content2(){
                </div>
             </div>  
           </div> 
+        </div>
         </>
     )
 }

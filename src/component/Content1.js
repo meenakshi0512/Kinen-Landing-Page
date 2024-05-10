@@ -3,7 +3,7 @@ export default function Content1(){
   
     return(
         <>
-          <div>
+          <div class="partner-logo">
           <img id="men1" src={require("./assets/men1.png")} alt="men1"/>
           <div class="content-circle">
             <b class="banner-price">$764.26</b>

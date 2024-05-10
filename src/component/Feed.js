@@ -2,7 +2,7 @@ import './Feed.css'
 export default function Feed(){
     return (
       <>
-        <div class="feed-body">
+        <div class="feed-body alignment">
           <div><img src={require("./assets/testimonial.jpg")} alt="img"/></div>
           <div>
             <div class="item-heading">
